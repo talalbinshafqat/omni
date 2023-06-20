@@ -10,6 +10,7 @@ var firebaseConfig = {
   var emailInput = document.getElementById('emailInput');
   var passwordInput = document.getElementById('passwordInput');
   var errorText = document.getElementById('errorText');
+  var x;
   
   // Add event listener to the login form
   loginForm.addEventListener('submit', function(e) {
